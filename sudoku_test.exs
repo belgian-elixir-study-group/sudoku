@@ -4,7 +4,7 @@
 Code.load_file("sudoku.exs")
 ExUnit.start
 
-defmodule TeenagerTest do
+defmodule SudokuTest do
   use ExUnit.Case, async: true
 
   test "a small valid sudoku" do
